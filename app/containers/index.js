@@ -21,7 +21,7 @@ class App extends Component {
 
 function mapStateToProps(state){
   return {
-    api: "test"
+    api: state.apiKeyReducer
   }
 }
 
